@@ -1,0 +1,1058 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   /* width: 100%;*/
+    background-color:#F7F7F8;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+/*mycode start*/
+
+/*mycode end*/
+.notBar .container-fluid{
+    margin-top: 10px;
+    display: flex;
+    padding: 14px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    /*align-self: stretch;*/
+    border-radius: 8px;
+    background-color: #FF9500;
+    color:#fff;
+}
+
+.navbar-brand {
+    background-color: #FF9500;
+    border-radius: 8px;
+    width: 54px;
+    height: 54px;
+    padding: 7px;
+    
+    
+}
+.navbar .btns {
+    
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar .btns button:first-child{
+    color:#262626;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    border:none;
+    background-color:#F7F7F8;
+}
+
+.navbar .btns button:nth-of-type(2) {
+    border-radius: 8px;
+    display: flex;
+    padding: 14px 34px;
+    align-items: center;
+    gap: 8px;
+    background-color: #FF9500;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* navbar ends. 
+
+header starts !!! */
+
+header {
+    display: flex;
+    /*width: 70%;
+    height: 340px;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;
+    gap: 60px; */
+   /* position: relative;
+    border: 1px solid #eee;
+    margin: auto;
+    margin-top: 100px;*/
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*mycode start*/
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-content .subcontainer {
+    position: relative;
+    background-color: #fff;
+    padding: 14px 20px;
+    
+}
+
+
+/*mycode end*/
+
+.abstractLine {
+    position: absolute;
+    left: -30px;
+    top: -20px;
+}
+.fa-bolt {
+    width: 50px;
+    height: 50px;
+    padding: 14px;
+    font-size: 25px;
+    background-color: #FFF4E5;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.headerHead {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    background-color:#F7F7F8;
+    margin-bottom: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+
+
+.headerText p:first-of-type, .btn-primary {
+    color:#262626;
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 150%; 
+}
+
+.headerText p:last-of-type {
+    color: var(--Grey-15, #262626);
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.twoBtn {
+    gap: 12px;
+}
+
+.twoBtn button {
+    padding: 18px 24px;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    border-radius:8px;
+}
+.twoBtn button:first-child {
+    background:#FF9500;
+    color:#fff;
+}
+
+.twoBtn button:last-child {
+    color:#262626;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%; 
+    border:1px solid #F1F1F3;
+    background:#fff;
+}
+/* header ends  */
+
+
+/* Brands section started here!  */
+
+/*.container {
+    justify-content: center;
+}*/
+/*.iconBrand {
+    padding: 30px 40px;
+}*/
+
+.conBrands {
+    margin: 100px 0;
+}
+/*mycode start*/
+.conBrands .container .row {
+    padding: 30px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.conBrands .container .row::-webkit-scrollbar {
+    display: none;
+}
+
+/*mycode end*/
+
+/* Image Placeholder section is here !!  */
+
+/*.imgSection .image-1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 150px;
+}*/
+.image-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Now lets move on the Benefits Section ! */
+/*.benefits {
+    width: auto;
+    margin-bottom: 100px;
+}*/
+
+/*mycode start*/
+.benefit-section {
+    margin-top: 150px;
+}
+
+.benefit-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.benefitsH1 {
+    width: 70%;
+}
+/*mycode end*/
+
+/*.benefitsHead {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    gap: 250px;
+    margin-bottom: 60px;
+    align-items: end;
+}*/
+
+.benefitsH1 h1 {
+    color:#262626;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 4px;
+}
+.benefitsH1 p {
+    color:#59595A;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/*.benefitsBtn {
+    width: 12%;
+}*/
+.benefitsBtn button {
+    /*width: 100%;*/
+    padding: 14px 20px;
+    /*height: 50%;*/
+    border-radius: 6px;
+    border: 1px solid #F1F1F3;
+    background-color: #FCFCFD;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+/*.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}*/
+
+/*mycode start*/
+
+.benefit-section .container .row {
+    row-gap: 20px;
+}
+
+.benefit-section .container .row .cardBenefits {
+  height: 100%;
+}
+
+/*mycode end*/
+
+.cardBenefits {
+    gap: 50px;
+    flex-direction: column;
+    /*width: 100%;*/
+    background-color : #fff;
+    padding: 50px;
+
+}
+/*.cardBenefits > div:first-of-type {
+    width: 90%;
+    
+}
+.cardBenefits > div:nth-of-type(2) {
+    width: 100%;
+    text-align: start;
+    
+}*/
+
+.cardBenefits h1 {
+    text-align: right;
+    font-size: 60px;
+    font-weight: 700;
+}
+.cardBenefits >div:nth-child(2) p:first-of-type {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.12px;
+}
+.cardBenefits >div:nth-child(2) p:last-of-type{
+    font-size: 14px;
+    color:#4C4C4D;
+    font-weight: 400;
+    line-height: 150%;
+}
+.benefitsArrow {
+    width: 90% ;
+    background-color: #fff;
+    border:none;
+    
+    
+}
+
+.benefitsArrowBtn {
+    align-items:center;
+    width: 20%;
+    border:1px solid #F1F1F3;
+    border-radius:6px;
+    padding: 20px;
+    margin-left: auto;
+    
+}
+
+/* Our Courses Section starts !!  */
+
+/*.d-grid-2 {
+    grid-template-columns: auto auto !important;
+}*/
+
+.ourCourses {
+    margin-top: 150px;
+}
+
+.cardOurCourses {
+    /*width: 100%;*/
+    height: 100%;
+    display: flex;
+    padding: 50px !important;
+    flex-direction: column;
+    gap: 24px;
+    border:1px solid #F1F1F3;
+    border-radius:12px;
+    background-color:#fff;
+}
+
+.ourCoursesImg  img {
+    width: 100%;
+    height: auto;
+}
+
+.ourCoursesSpan {
+    /*width: 100%;*/
+    justify-content: space-between;
+    
+}
+
+/* .ourCoursesSpan > span:first-of-type, 
+.ourCoursesSpan > span:nth-of-type(2) {
+    padding: 10px 16px;
+    border: 1px solid #F1F1F3;
+    background-color:#fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px;
+} */
+
+.ourCoursesSpan > div:first-child span:first-of-type , .ourCoursesSpan > div:first-child span:last-of-type {
+    padding: 10px 16px;
+    border: 1px solid #F1F1F3;
+    background-color:#fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius:8px;
+}
+/*.ourCoursesSpan > div:first-child span:last-of-type {
+    margin-left: 10px;
+}*/
+
+.ourCoursesSpan > div:nth-child(2) span{
+    color:#262626;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ourCoursesContent {
+    flex-direction: column;
+    gap: 14px;
+}
+
+.ourCoursesContent h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.ourCoursesContent p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.ourCoursesBtn {
+    width: 100%;
+    padding: 18px 24px;
+    text-align: center;
+    border: 1px solid #F1F1F3;
+    border-radius:8px;
+    background-color:#F7F7F8;
+}
+
+.ourCoursesBtn > button a {
+    font-size: 14px;
+    color:#262626;
+    font-weight: 500;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+/* Our Testimonials section start here !  */
+
+
+/*.gridTest {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}*/
+
+.gridContainerTest {
+    border: 1px solid #F1F1F3;
+    background-color: #fff;
+    border-radius:12px;
+}
+
+.testContent p {
+    padding: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.cardTest {
+   /* width: 100%;*/
+   display: flex;
+    border-top: 1px solid #F1F1F3;
+    flex-direction: row;
+    padding: 30px 50px;
+    align-items:center;
+    justify-content: space-between;
+    gap: 8px;
+}
+.testImg {
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+/*.testName {
+    width: 100%;
+}*/
+.testBtn {
+    padding: 18px 24px;
+    /*width: 50%;*/
+    border-radius: 8px;
+    border: 1px solid #F1F1F3 !important;
+    background-color: #F7F7F8;
+}
+.testBtn button a  {
+    align-items:center !important;
+    text-align: center !important;
+    font-size: 12px !important;
+    font-weight: 500;
+    line-height: 150% ;
+    color:#262626 !important;
+    text-decoration: none !important;
+}
+
+.testBtn button {
+    /*width: 100%;*/
+    border:none;
+    background-color:#F7F7F8;
+}
+
+/* Our Pricing Section starts here !  */
+
+.pricingBtn {
+    padding: 12px;
+    background-color:#fff;
+    border-radius:8px;
+}
+
+.btnMonth {
+    padding: 14px 30px;
+    background-color:#FF9500 !important; 
+    border-radius:6px !important;
+    color:#fff;
+}
+
+.btnYear {
+    padding: 14px 30px;
+    background-color:#fff !important; 
+    border-radius:6px !important;
+    color:#4C4C4D;
+}
+
+.pricingPlan {
+    /*width:100%;*/
+    padding: 80px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fff;
+    border-radius:12px;
+}
+
+.pricingCard {
+    /*width: 100%;*/
+    padding: 50px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border:1px solid #F1F1F3 ;
+    border-radius:12px ;
+    background-color: #FCFCFD;
+
+}
+.ourPricing .container .row {
+    padding: 80px 0;
+}
+.pricTop {
+    /*width: 100%;*/
+    padding: 12px 22px;
+    border: 1px solid #FFEACC;
+    border-radius:6px;
+    background-color: #FFF9F0;
+    color:#262626;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 169%;
+    text-align: center;
+}
+
+.pricPrice {
+    color:#262626;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 73%;
+    text-align: center;
+}
+
+.pricPrice > span {
+    color:#4C4C4D;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 73%;
+}
+
+.pricingList {
+    width: 100%;
+    flex-direction: column;
+    padding: 40px;
+    gap: 30px;
+    border:1px solid #F1F1F3;
+}
+
+.pricListHead h2 {
+    color:#7b0d0d;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%
+}
+
+.pricListContent {
+    width: 100%;
+    padding: 0 30px;
+    
+}
+.pricListContent ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.pricListContent ul li {
+    display: flex;
+    gap: 12px;
+    padding: 14px;
+    border:1px solid #F1F1F3;
+    align-items:center
+}
+.pricListContent ul li svg {
+    background-color: #FFF4E5;
+    border-radius:6px;
+    padding: 6px;
+    width: 32px;
+    height: 32px;
+
+}
+
+.pricListContent ul li #btnX {
+    background-color:#F1F1F3;
+}
+
+.pricListContent ul li {
+    width: 100%;
+    color:#4C4C4D;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.pricingList .pricingListLastButton {
+    width: 100%;
+    
+}
+.pricingListLastButton button {
+    width: 100%;
+    padding: 20px 24px;
+    background-color:#FF9500;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 150%;
+    border:none;
+    border-radius:0 0 8px 8px;
+}
+
+/* this section ended here. new FAQ section starts!.  */
+
+
+.faq-section .container {
+    padding: 100px;
+    
+    border-radius:12px;
+    /*background-color:#fff;*/
+    margin-bottom: 142px;
+    margin-top: 100px;
+
+}
+
+.faq-section .container .row .faqRight{
+    padding-left: 100px;
+}
+
+.faqLeft {
+   /* width: 50%;*/
+    flex-direction:column;
+}
+
+.faqHead {
+    /*width:100%;*/
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faqHead h2 {
+    color:#262626;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%; 
+}
+
+.faqHead p {
+    color:#333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/*.faqHeadBtn {
+    width: 50%;
+    
+}*/
+
+.faqHeadBtn button {
+    border:1px solid #F1F1F3;
+    padding: 18px 24px;
+    background-color: #fff;
+    border-radius:8px;
+}
+
+.faqHeadBtn button a {
+    text-decoration: none;
+    color:#262626;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+    background-color: #fff;
+}
+
+.faqRight {
+    /*width: 100% ;*/
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.faqRight .card-1 {
+   /* width: 100%;*/
+    padding: 50px;
+    flex-direction: column;
+    gap: 50px;
+    border-radius:12px;
+    border:1px solid #F1F1F3;
+}
+
+.faqRight .card-1 .card-heading {
+    /*width: 100%;*/
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F3;
+}
+
+.faqRight .card-1 .card-heading p {
+    color: var(--Grey-15, #262626);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.faqRight .card-1 .card-heading button {
+    padding: 12px;
+    border-radius:12px;
+    background-color: #FFF4E5;
+    border:none;
+}
+
+
+
+.faqRight .card-1>p {
+    /*width: 100%;*/
+    color:#4C4C4D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.108px;
+}
+
+.faqRight .card-1 .sub-container {
+    display: flex;
+    padding: 20px 30px;
+    align-items: center;
+    background-color:#F7F7F8;
+    border:1px solid #F1F1F3;
+    border-radius:8px;
+    justify-content: space-between;
+}
+
+.faqRight .card-1 .sub-container p {
+    color:#333;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.faqRight .card-1 .sub-container button {
+    border: none;
+    border-radius:100%;
+    background-color:#fff;
+    padding: 2px;
+}
+
+.fqCard1-3 > div svg {
+    width: 100%;
+    display: flex;
+    align-items:center;
+}
+
+.faqRight .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.faqCard {
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px 50px;
+    align-items:center;
+    border-radius: 12px;
+    border: 1px solid #F1F1F3;
+    background-color: #FFF;
+}
+
+.faqCard > div:first-child {
+    color:#262626;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.faqCard > div:last-child {
+    width: 52px;
+    height: 52px;
+    background-color:#FFF4E5;
+    border-radius:8px;
+    padding: 12px;
+}
+
+
+/* Footer staarts hereee !!!  */
+
+footer {
+   /* width: 100%;
+    padding: 100px 150px 30px 162px;
+    flex-direction: column;
+    gap: 50px;*/
+    background-color:#fff;
+    padding: 100px 0 30px;
+
+}
+
+/*.footerContainer {
+    width: 90%;
+    align-items:center;
+    justify-content: center;
+    
+}*/
+footer .container .row {
+    padding-bottom: 50px !important;
+    border-bottom: 1px solid #F1F1F3;;
+}
+footer .container .footLeft {
+    flex-direction: column;
+    gap: 40px;
+}
+.footerLogo {
+    width: 54px;
+    height: 54px;
+    background-color:#FF9500;
+    border-radius:8px;
+    display: flex;
+    align-items:center;
+    padding: 7px;
+}
+
+.footerContact {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footRight {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footR {
+    flex-direction: column;
+    gap: 14px;
+    
+}
+
+.footR-list {
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footR-icons {
+    gap: 14px;
+}
+
+.footR h5 {
+    color:#262626;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.footR ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.footR ul li {
+    color:#59595A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: start;
+}
+
+.footR-icons li {
+    padding: 14px;
+    background-color:#F7F7F8;
+    border:1px solid #F1F1F3;
+    border-radius:8px;
+}
+
+/*.line {
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    background-color:#F1F1F3;
+}*/
+
+.copyright {
+    color:#656567;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 50px 0 30px;
+}
+@media screen and (max-width: 992px) {
+    .faq-section .container .row {
+        gap: 40px;
+    }
+    .faq-section .container .row .faqRight {
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    footer .container .row  {
+        gap: 24px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    
+    /*.notBar {
+        width: 100%;
+        margin: auto;
+        margin: 5px;
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+    .navbar .btn {
+        visibility: visible;
+    }*/
+   
+    /*.conBrands {
+        
+        flex-direction: row !important;
+        gap: 0px !important;
+        text-align: center;
+        
+    }
+    .conAmazon {
+        display: none;
+    }
+
+    .conAdobe {
+        display: none;
+    }
+
+    .conNotion {
+        display: none;
+    }
+
+    .conNetflix {
+        display: none;
+    }*/
+
+    /*.benefitsHead {
+        flex-direction: column;
+        gap: 20px;
+    }*/
+    .benefit-text {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+   /* .benefitsBtn {
+        width: 30%;
+        margin-right: auto !important;
+    }*/
+
+   /* .gridContainer {
+        grid-template-columns: auto;
+    }*/
+
+    /*.d-grid-2 {
+        grid-template-columns: auto !important;
+    }
+
+    .gridTest {
+        grid-template-columns: auto ;
+    }*/
+
+    /*.ourPricing .ourCourses .benefitsH1 {
+        width: 100%;
+    }
+
+    .ourPricing .ourCourses .pricingBtn {
+        align-self: center;
+    }*/
+
+   /* .pricingPlan {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }*/
+
+   /* .faq-section {
+        flex-direction: column;
+    }*/
+
+    
+    
+
+   /* .footerContainer {
+        flex-direction: column;
+    }
+    
+    .footRight {
+        display: grid !important;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+    }
+
+    .footR-3 {
+        grid-row: 2 span;
+    }*/
+}
